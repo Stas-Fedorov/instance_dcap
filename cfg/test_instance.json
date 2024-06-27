@@ -1,0 +1,27 @@
+{
+"Instance_name": "Test_instance", 
+"n_scenarios": 10, 
+"vehicles": [
+{"capacity": 100, 
+"name": "bike", 
+"number": 6, 
+"cost": 200}, 
+{"capacity": 300, 
+"name": "evans", 
+"number": 3, 
+"cost": 600}, 
+{"capacity": 600, 
+"name": "vans", 
+"number": 2, 
+"cost": 1300}
+],
+"base_zone_capacity": 260, 
+"cost_extra_time_h": 200, 
+"cost_extra_capacity_kg": 10, 
+"cost_driver_time_h": 30,
+"cost_pass_one_zone_kg": 0.2,
+"time_pass_city_h": 1.5,
+"daily_working_time": 8,
+"max_extra_capacity_distr_kg": 150,
+"max_extra_working_time_h": 3
+}

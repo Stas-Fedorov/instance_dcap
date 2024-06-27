@@ -1,0 +1,20 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+*.log
+
+
+docs/_build/
+
+results/*
+!results/.gitkeep
+
+results/fig*
+!results/fig.gitkeep
+
+logs/*
+!logs/.gitkeep
+
