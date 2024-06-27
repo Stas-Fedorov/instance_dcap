@@ -6,7 +6,7 @@ import logging
 import numpy as np
 import random
 # Importing supportive libs
-from solver.district_generator import DistrictNetwork
+from simulator.district_generator import DistrictNetwork
 from simulator.instanceDcap import InstanceDCAP
 from simulator.zoneNetwork import ZoneNetwork
 # Fixing seed to debug the possible problems
@@ -37,7 +37,7 @@ if __name__ == '__main__':
     # Input parameters
     # Number of zones on one side of the grid (test version)    
     n_nodes = 5 # corresponds to x^2 zones (5^2 = 25)
-    # Number of districts to form from zones (starting for ALNS)
+    # Number of districts to form from zones (+ 1 depot)
     n_districts = 15
     # Number of scnarios in the main DCAP problem
     n_scenarios = 10
@@ -64,3 +64,4 @@ if __name__ == '__main__':
     
     # Get the parameters as dictionary
     inst_dict = inst.get_dict()
+    print(inst_dict)
